@@ -1,0 +1,52 @@
+/* Сбросим все отступы и поля */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Убедимся, что размеры элементов включают отступы и границы */
+}
+
+/* Убираем стандартные стили для текста */
+body {
+  font-family: sans-serif; /* Стандартный шрифт */
+  line-height: 1.5; /* Устанавливаем комфортную высоту строки */
+}
+
+/* Убираем стандартные стили для списков */
+ul, ol {
+  list-style: none;
+}
+
+/* Убираем стили ссылок */
+a {
+  text-decoration: none;
+  color: inherit; /* Чтобы ссылки не меняли цвет */
+}
+
+/* Блоки и изображения */
+img {
+  max-width: 100%; /* Изображения будут растягиваться по контейнеру */
+  height: auto;
+  display: block;
+}
+
+/* Формы */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* Убираем границы у таблиц */
+table {
+  border-collapse: collapse; /* Убираем промежутки между ячейками */
+  width: 100%;
+}
+
+/* И добавляем стили для всех элементов */
+html {
+  scroll-behavior: smooth; /* Плавная прокрутка */
+}
