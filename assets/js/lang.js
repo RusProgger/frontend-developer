@@ -9,7 +9,13 @@ const translations = {
          'models': '3d моделі',
          'about': 'Про мене',
          'certificates': 'Сертифікати',
-         'contacts': 'Контакти'
+         'contacts': 'Контакти',
+         'page-works': 'Мої роботи',
+         'home': 'На головну',
+         'page-works-title': 'Мої роботи',
+         'works-download': 'Завантажити',
+         'cards-python': 'Написав програму на Python для автоматизації вимкнення комп\'ютера, якщо кнопка пуск не працює з якихось причин.',
+         'cards-cpp': 'Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн. Також є і в євро в долари.'
 
     },
     en: {
@@ -21,7 +27,13 @@ const translations = {
          'models': '3d models',
          'about': 'About me',
          'certificates': 'Certificates',
-         'contacts': 'Contacts'
+         'contacts': 'Contacts',
+         'page-works': 'My works',
+         'home': 'Home',
+         'page-works-title': 'My works',
+         'works-download': 'Download',
+         'cards-python': 'I wrote a Python program to automate the shutdown of a computer if the start button does not work for some reason.',
+         'cards-cpp': 'I wrote a C++ program to convert currencies from UAH to USD. From dollars to UAH. It also converts euros to dollars.'
     }
 };
 
