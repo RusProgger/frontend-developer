@@ -1,4 +1,39 @@
 .main {
+    position: relative;
+
+    // arrow 
+
+    &__arrow {
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        min-height: 50px;
+        display: block;
+    }
+
+    &__prev,
+    &__next {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        color: #c3360c;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__prev {
+        left: 10px;
+    }
+
+    &__next {
+        right: 10px;
+    }
+
+
     background-image: url("/assets/images/bg/bg-white.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +48,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 25px 10px;
+        padding: 70px 10px;
 
         // images 
 
@@ -114,6 +149,7 @@
         }
    }
 }
+
 
 #text-random {
     white-space: nowrap;
