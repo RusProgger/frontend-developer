@@ -28,22 +28,37 @@ body {
     position: relative;
     padding-top: 75px;
 
-    &::-webkit-scrollbar {
-        width: 12px;
-        background-color: #F5F5F5;
-        border-radius: 5px;
-    }
+    // &::-webkit-scrollbar {
+    //     width: 12px;
+    //     background-color: #F5F5F5;
+    //     border-radius: 5px;
+    // }
     
-    &::-webkit-scrollbar-thumb {
-        background-color: hsl(44, 6%, 38%);
-        background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-        border-radius: 5px;
-    }
+    // &::-webkit-scrollbar-thumb {
+    //     background-color: hsl(44, 6%, 38%);
+    //     background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    //     border-radius: 5px;
+    // }
     
-    &::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-        background-color: #F5F5F5;
+    // &::-webkit-scrollbar-track {
+    //     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    //     background-color: #F5F5F5;
         
+    // }
+
+      &::-webkit-scrollbar {
+        width: 15px; /* ширина всей полосы прокрутки */
     }
+      &::-webkit-scrollbar-track {
+        background: #000000; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #000000, #080808); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+      &::-webkit-scrollbar-thumb {
+        background: #b66316; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26316d, #31030c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 20px; /* округлось бегунка */
+        // border: 1px solid rgb(231, 226, 216); /* отступ вокруг бегунка */
+    }
+
 }
 
