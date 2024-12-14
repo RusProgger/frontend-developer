@@ -186,10 +186,12 @@
     margin-top: 40px;
 
     // cards items 
-
+    &-works-item {
+        padding: 25px 15px 5px 15px;
+    }
     &-item {
         min-height: 275px;
-        padding: 25px 15px 5px 15px;
+        
 
         flex-basis: calc(100% / 3 - 15px);
         border: 1px solid #0c0c0c;
@@ -217,5 +219,47 @@
     &-text {
         text-align: center;
         margin-bottom: 60px;
+    }
+}
+
+// web 
+
+.main {
+
+    &__content-cards-item {
+        opacity: 0; 
+        transform: translateY(20px); 
+        transition: opacity 0.8s ease, transform 0.8s ease; 
+
+        &.visible {
+            opacity: 1; 
+            transform: translateY(0);
+            transition: 0.5s;
+        }
+
+        @media(hover: hover) {
+            &:hover {
+                box-shadow: 0px 0px 5px 0px #000000;
+                transition: 0.3s;
+            }
+        }
+
+        @media(hover: none) {
+            &:active {
+                box-shadow: 0px 0px 5px 0px #000000;
+                transition: 0.3s;
+            }
+        }
+    }
+    &__content-cards-icon > img {
+        width: 100%;
+        overflow: hidden;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    &__content-cards-link {
+        padding: 50px 10px 25px 10px;
     }
 }

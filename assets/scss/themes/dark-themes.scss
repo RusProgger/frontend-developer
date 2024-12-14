@@ -326,10 +326,12 @@
     margin-top: 40px;
 
     // cards items 
+    &-works-item {
+        padding: 25px 15px 5px 15px;
+    }
 
     &-item {
         min-height: 275px;
-        padding: 25px 15px 5px 15px;
 
         flex-basis: calc(100% / 3 - 15px);
         border: 1px solid #8d0808;

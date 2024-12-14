@@ -15,6 +15,8 @@ const translations = {
          'footer-title': 'Руслан Вороненко',
          'page-works-title': 'Мої роботи',
          'works-download': 'Завантажити',
+         'web-projects': 'Подивитись сайт',
+         'page-web-works-title': 'Веб-проєкти',
          'cards-python': 'Написав програму на Python для автоматизації вимкнення комп\'ютера, якщо кнопка пуск не працює з якихось причин.',
          'cards-cpp': 'Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн. Також є і в євро в долари.'
 
@@ -33,6 +35,8 @@ const translations = {
          'home': 'Home',
          'footer-title': 'Ruslan Voronenko',
          'page-works-title': 'My works',
+         'page-web-works-title': 'Web projects',
+         'web-projects': 'View site',
          'works-download': 'Download',
          'cards-python': 'I wrote a Python program to automate the shutdown of a computer if the start button does not work for some reason.',
          'cards-cpp': 'I wrote a C++ program to convert currencies from UAH to USD. From dollars to UAH. It also converts euros to dollars.'
