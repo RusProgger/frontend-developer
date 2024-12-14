@@ -1,0 +1,21 @@
+.footer {
+    background-color: #e2e2e2;
+
+    // icons 
+
+    &__social {
+        font-size: 25px;
+
+        @media(max-width: 480px) {
+            font-size: 40px;
+        }
+    }
+
+    &__wrapper {
+        
+        @media(max-width: 480px) {
+            display: block;
+            text-align: center;
+        }
+    }
+}

@@ -15,8 +15,8 @@
     &__next {
         height: 40px;
         width: 40px;
-        border-radius: 50%;
-        border: 1px solid #ffffff;
+        // border-radius: 50%;
+        // border: 1px solid #ffffff;
         color: #c3360c;
         text-align: center;
         font-size: 30px;
@@ -26,11 +26,11 @@
     }
 
     &__prev {
-        left: 10px;
+        left: 5px;
     }
 
     &__next {
-        right: 10px;
+        right: 5px;
     }
 
 

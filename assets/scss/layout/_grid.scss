@@ -4,7 +4,8 @@
     padding: 0 20px;
 }
 
-.header__wrapper {
+.header__wrapper,
+.footer__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;

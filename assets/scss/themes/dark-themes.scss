@@ -360,4 +360,25 @@
     }
 }
 
+// footer
 
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+
+    &__social {
+        font-size: 25px;
+
+        @media(max-width: 480px) {
+            font-size: 40px;
+        }
+    }
+
+    &__wrapper {
+        
+        @media(max-width: 480px) {
+            display: block;
+            text-align: center;
+        }
+    }
+}
