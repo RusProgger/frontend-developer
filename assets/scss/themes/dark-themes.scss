@@ -353,13 +353,103 @@
         display: block;
         font-size: 30px;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
     }
 
     &-text {
         text-align: center;
-        margin-bottom: 60px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        // margin-bottom: 60px;
     }
+}
+
+// certificates
+
+.gallery {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    padding: 20px;
+
+    &-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &-img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+        @media(hover: hover) {
+            &-img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        @media(hover: none) {
+            &-img:active {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+
+    &-content {
+        max-width: 90%;
+        max-height: 90%;
+        margin: auto;
+        display: block;
+    }
+}
+
+
+.close {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    color: #f1f1f1;
+    font-size: 36px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media(hover: hover) {
+        .close:hover,
+        .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+@media(hover: nove) {
+    .close:active,
+    .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
 }
 
 // footer

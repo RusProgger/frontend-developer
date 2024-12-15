@@ -25,7 +25,7 @@
     <!-- css link -->
     <link rel="stylesheet" href="assets/css/main.min.css" id="theme-style">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title data-translate="works">Проєкти</title>
+    <title data-translate="certificates">Резюме - Руслан Вороненко Фронтенд розробник</title>
 </head>
 <body>
     <!-- header -->
@@ -63,40 +63,32 @@
         <div class="container">
             <div class="main__content">
                 <div class="main__content-body">
-                    <h2 data-translate="page-works-title" class="main__content-name">Роботи</h2>
+                    <h2 data-translate="certificates-title" class="main__content-name">Мої сертифікати</h2>
                 </div>
-                <div class="main__content-cards">
-                    <div class="main__content-cards-item main__content-cards-works-item">
-                        <div class="main__content-cards-icon">
-                            <i class="fa-solid fa-clock"></i>
-                        </div>
-                        <p data-translate="cards-python" class="main__content-cards-text">Написав програму на Python для автоматизації вимкнення комп'ютера, якщо кнопка пуск не працює з якихось причин.</p>
-                        <p class="main__content-cards-link">
-                            <a data-translate="works-download" class="main__content-menu-link" href="works.html" aria-label="Завантажити її можна тут">Завантажити</a>
-                        </p>
-                    </div>
 
-                    <div class="main__content-cards-item main__content-cards-works-item">
-                        <div class="main__content-cards-icon">
-                            <i class="fa-solid fa-temperature-three-quarters"></i>
-                        </div>
-                        <p data-translate="cards-python-temp" class="main__content-cards-text">Написав програму для перевірки температури комплектуючих. Такі як процесор, відеокарта, HDD та ОЗУ. Також є режими.</p>
-                        <p class="main__content-cards-link">
-                            <a data-translate="works-download" class="main__content-menu-link" href="works.html" aria-label="Завантажити її можна тут">Завантажити</a>
-                        </p>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="assets/images/certificates/CPPsertificate.jpg" alt="cpp" class="gallery-img">
                     </div>
-
-                    <div class="main__content-cards-item main__content-cards-works-item">
-                        <div class="main__content-cards-icon">
-                            <i class="fa-solid fa-hand-holding-dollar"></i>
-                        </div>
-                        <p data-translate="cards-cpp" class="main__content-cards-text">Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн.  Також є і в євро в долари.</p>
-                        <p class="main__content-cards-link">
-                            <a data-translate="works-download" class="main__content-menu-link" href="works.html" aria-label="Завантажити її можна тут">Завантажити</a>
-                        </p>
+                    <div class="gallery-item">
+                        <img src="assets/images/certificates/Python-ser.jpg" alt="python" class="gallery-img">
                     </div>
-
+                    <div class="gallery-item">
+                        <img src="assets/images/certificates/HTML-ser.jpg" alt="html" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/certificates/CSSsertificate.jpg" alt="css" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/certificates/php.jpg" alt="php" class="gallery-img">
+                    </div>
                 </div>
+                
+                <div id="modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="modal-img">
+                </div>
+
             </div>
         </div>
     </main>
@@ -128,5 +120,6 @@
      <!-- footer end -->
 <script src="assets/js/themes.js"></script>
 <script src="assets/js/lang.js"></script>
+<script src="assets/js/certificates.js"></script>
 </body>
 </html>

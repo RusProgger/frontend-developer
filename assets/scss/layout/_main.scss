@@ -25,12 +25,19 @@
         transform: translateY(-50%);
     }
 
+    @media screen and (max-width: 480px) {
+        &__prev,
+        &__next {
+            font-size: 18px;
+        }
+    }
+
     &__prev {
-        left: 5px;
+        left: 1px;
     }
 
     &__next {
-        right: 5px;
+        right: 1px;
     }
 
 
@@ -213,12 +220,14 @@
         display: block;
         font-size: 30px;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
     }
 
     &-text {
         text-align: center;
-        margin-bottom: 60px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        // margin-bottom: 60px;
     }
 }
 
@@ -226,7 +235,7 @@
 
 .main {
 
-    &__content-cards-item {
+    &__content-cards-web-item {
         opacity: 0; 
         transform: translateY(20px); 
         transition: opacity 0.8s ease, transform 0.8s ease; 

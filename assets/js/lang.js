@@ -7,8 +7,10 @@ const translations = {
          'collages': 'Колажі',
          'projects': 'Проєкти',
          'models': '3d моделі',
+         'sertificate': 'Сертифікати',
          'about': 'Про мене',
          'certificates': 'Сертифікати',
+         'certificates-title': 'Мої сертифікати',
          'contacts': 'Контакти',
          'page-works': 'Мої роботи',
          'home': 'На головну',
@@ -18,6 +20,7 @@ const translations = {
          'web-projects': 'Подивитись сайт',
          'page-web-works-title': 'Веб-проєкти',
          'cards-python': 'Написав програму на Python для автоматизації вимкнення комп\'ютера, якщо кнопка пуск не працює з якихось причин.',
+         'cards-python-temp' : 'Написав програму для перевірки температури комплектуючих. Такі як процесор, відеокарта, HDD та ОЗУ. Також є режими.',
          'cards-cpp': 'Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн. Також є і в євро в долари.'
 
     },
@@ -28,8 +31,10 @@ const translations = {
          'collages': 'Collages',
          'projects': 'Projects',
          'models': '3d models',
+         'sertificate': 'Сертіфікати',
          'about': 'About me',
          'certificates': 'Certificates',
+         'certificates-title': 'My certificates',
          'contacts': 'Contacts',
          'page-works': 'My works',
          'home': 'Home',
@@ -39,6 +44,7 @@ const translations = {
          'web-projects': 'View site',
          'works-download': 'Download',
          'cards-python': 'I wrote a Python program to automate the shutdown of a computer if the start button does not work for some reason.',
+         'cards-python-temp': 'I wrote a program to check the temperature of components such as the processor, graphics card, HDD, and RAM. It also includes different modes.',
          'cards-cpp': 'I wrote a C++ program to convert currencies from UAH to USD. From dollars to UAH. It also converts euros to dollars.'
     }
 };
