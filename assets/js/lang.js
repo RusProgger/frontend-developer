@@ -19,6 +19,7 @@ const translations = {
          'works-download': 'Завантажити',
          'web-projects': 'Подивитись сайт',
          'page-web-works-title': 'Веб-проєкти',
+         'page-contacts': 'Мої контакти',
          'cards-python': 'Написав програму на Python для автоматизації вимкнення комп\'ютера, якщо кнопка пуск не працює з якихось причин.',
          'cards-python-temp' : 'Написав програму для перевірки температури комплектуючих. Такі як процесор, відеокарта, HDD та ОЗУ. Також є режими.',
          'cards-cpp': 'Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн. Також є і в євро в долари.'
@@ -41,6 +42,7 @@ const translations = {
          'footer-title': 'Ruslan Voronenko',
          'page-works-title': 'My works',
          'page-web-works-title': 'Web projects',
+         'page-contacts': 'My contacts',
          'web-projects': 'View site',
          'works-download': 'Download',
          'cards-python': 'I wrote a Python program to automate the shutdown of a computer if the start button does not work for some reason.',
