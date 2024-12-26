@@ -3,6 +3,7 @@ const translations = {
     uk: {
          'page-title': 'Резюме - Руслан Вороненко Фронтенд розробник',
          'name-author': 'Руслан Вороненко',
+         'home': "Головна",
          'works': 'Роботи',
          'collages': 'Колажі',
          'projects': 'Проєкти',
@@ -28,6 +29,7 @@ const translations = {
     en: {
          'page-title': 'My portfolio Ruslan Voronenko',
          'name-author': 'Ruslan Voronenko',
+         'home': "Home",
          'works': 'Works',
          'collages': 'Collages',
          'projects': 'Projects',
