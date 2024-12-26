@@ -101,7 +101,7 @@
             bottom: 0;
             background-color: #000000;
             transition: background-color $transition-speed, transform $transition-speed;
-            border-radius: $switch-height / 2;
+            border-radius: calc($switch-height / 2);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -163,7 +163,7 @@
         
     
         &-slider.buttonRound {
-            border-radius: $switch-height / 2;
+            border-radius: calc($switch-height / 2);
         }
     
         &-slider.buttonRound::before {
@@ -230,9 +230,16 @@
             padding-bottom: 15px;
             color: #ffffff;
         }
-        
-        // menu 
 
+        // burger menu 
+
+        .header__menu {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
         &-menu {
             &-list {
                 display: flex;
@@ -290,6 +297,89 @@
         }
    }
 }
+
+
+
+// menu burger
+
+.header__menu {
+    position: relative;
+}
+
+.burger-menu {
+    width: 35px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    padding: 20px 0px;
+
+
+    &__line {
+        background-color: #fff;
+        height: 2px;
+        width: 100%;
+        
+
+        &::before,
+        &::after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            display: block;
+            background-color: #fff;
+            position: absolute;
+            transition: 0.3s;
+        }
+
+        &::before {
+            top: 10px;
+        }
+
+        &::after {
+            bottom: 9px
+        }
+    }
+}
+
+
+.burger-menu.active  .burger-menu__line::before {
+    transform: rotate(-45deg);
+    top: 50%;
+}
+
+.burger-menu.active  .burger-menu__line::after {
+    transform: rotate(50deg);
+    top: 50%;
+}
+
+.burger-menu.active  .burger-menu__line {
+    background: transparent;
+}
+
+// menu open 
+
+.menu__open {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.menu__item {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu__link {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+// menu 
 
 #text-random {
     white-space: nowrap;
