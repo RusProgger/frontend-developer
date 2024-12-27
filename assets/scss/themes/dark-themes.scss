@@ -12,7 +12,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 9999;
     color: #fff;
     background-color: rgb(26, 33, 56);
 
@@ -359,30 +359,56 @@
 // menu open 
 
 .menu__open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #1a2138;
+    height: calc(100vh - 83px);
+    overflow-y: auto;
+    margin-top: 83px;
+    padding-top: 50px;
+    padding-bottom: 45px;
     display: none;
+}
+
+.menu__cards {
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
     width: 100%;
-    min-height: 100vh;
+    padding: 0 15px;
+    
 
-    &.active {
+    &-item {
+        border: 1px solid #fff;
+        flex-basis: 250px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 190px;
+        text-align: center;
+        border-radius: 15px;
+
+        
+
+        & > i {
+            font-size: 30px;
+            color: #ffffff;
+            margin-bottom: 35px;
+        }
+
+
     }
 }
 
-.menu__item {
-    padding: 10px 0;
-    text-align: center;
-}
 
-.menu__link {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #ffffff;
-}
+
+
 
 // menu 
 

@@ -226,30 +226,44 @@
 
 // menu open 
 
+// .menu__open {
+//     display: none;
+//     align-items: center;
+//     justify-content: center;
+//     width: 100%;
+//     min-height: 100vh;
+
+//     &.active {
+//         display: flex;
+//     }
+// }
+
+// .menu__item {
+//     padding: 10px 0;
+//     text-align: center;
+// }
+
+// .menu__link {
+//     display: block;
+//     text-align: center;
+//     text-transform: uppercase;
+//     font-size: 1.1rem;
+//     font-weight: bold;
+//     color: #000000;
+// }
+
 .menu__open {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100vh;
+    display: block;
+   
 
     &.active {
-        display: flex;
+        display: block;
     }
 }
 
-.menu__item {
-    padding: 10px 0;
-    text-align: center;
-}
 
 .menu__link {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #000000;
+    color: #ffffff;
 }
 
-// menu 
+// menu end
