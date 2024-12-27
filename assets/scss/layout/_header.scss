@@ -16,6 +16,7 @@
     //  language
 
     &__language {
+        flex: 0 1 auto;
         &-button {
             &--active {
                 background-color: rgba(13, 100, 180, 0.671);
@@ -73,11 +74,14 @@
     // toggle switcher
     
     &__themes {
+        margin-left: auto;
         &-switch {
             position: relative;
-            display: inline-block;
+            display: flex;
+            align-items: center;
             width: $switch-width;
             height: $switch-height;
+            gap: 10px;
     
             input {
                 opacity: 0;
@@ -168,9 +172,15 @@
 
 }
 
+.header__themes, .header__menu {
+    display: flex;
+    align-items: center;
+}
+
 // menu burger
 
 .header__menu {
+    margin-left: 25px;
     position: relative;
 }
 
@@ -252,18 +262,65 @@
 //     color: #000000;
 // }
 
+// menu open 
+
 .menu__open {
-    display: block;
-   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #f6ecec;
+    height: calc(100vh - 83px);
+    overflow-y: auto;
+    margin-top: 83px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    display: none;
 
     &.active {
         display: block;
     }
+    
 }
 
+.menu__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    padding: 0 15px;
+    
 
-.menu__link {
-    color: #ffffff;
+    &-item {
+        border: 1px solid #131212;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 190px;
+        text-align: center;
+        border-radius: 15px;
+
+        
+
+        & > i {
+            font-size: 30px;
+            color: #111111;
+            margin-bottom: 35px;
+        }
+
+        & > span {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #111111;
+        }
+
+
+    }
 }
 
-// menu end
