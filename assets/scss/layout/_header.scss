@@ -305,6 +305,33 @@
         text-align: center;
         border-radius: 15px;
 
+        @media(hover: hover) {
+            &:hover {
+                background: #a09c9e;
+                background: -webkit-linear-gradient(to bottom, #d3d0cf, #dfd9dc);
+                background: linear-gradient(to bottom, #d3d0cf, #dfd9dc);
+           }
+        }
+
+        @media(hover: none) {
+            &:active {
+                background: #a09c9e;
+                background: -webkit-linear-gradient(to bottom, #d3d0cf, #dfd9dc);
+                background: linear-gradient(to bottom, #d3d0cf, #dfd9dc);
+           }
+        }
+        
+        // active
+
+        &-active {
+            background: #a09c9e;
+            background: -webkit-linear-gradient(to bottom, #d3d0cf, #dfd9dc);
+            background: linear-gradient(to bottom, #d3d0cf, #dfd9dc);
+        }
+
+
+        
+
         
 
         & > i {
