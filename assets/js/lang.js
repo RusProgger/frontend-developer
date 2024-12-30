@@ -21,9 +21,15 @@ const translations = {
          'web-projects': 'Подивитись сайт',
          'page-web-works-title': 'Веб-проєкти',
          'page-contacts': 'Мої контакти',
+         'contacts-title-button-facebook': 'Перейти до facebook',
+         'contacts-title-button-telegramm': 'Написати в телеграм',
+         'contacts-title-button-mail': 'Написати в gmail',
+         'cards-contacts-facebook': 'Мій акаунт у Facebook',
+         'cards-contacts-telegram': 'Мій акаунт у телеграм',
+         'cards-contacts-gmail': 'Написати мені в gmail.',
          'cards-python': 'Написав програму на Python для автоматизації вимкнення комп\'ютера, якщо кнопка пуск не працює з якихось причин.',
-         'cards-python-temp' : 'Написав програму для перевірки температури комплектуючих. Такі як процесор, відеокарта, HDD та ОЗУ. Також є режими.',
-         'cards-cpp': 'Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн. Також є і в євро в долари.'
+         'cards-python-temp' : 'Написав програму для перевірки температури комплектуючих. Такі як процесор(CPU), відеокарта(GPU), та HDD і SSD.',
+         'cards-cpp': 'Написав програму на С++ для конвертації валют із грн у долари. З доларів у грн. Також є і в євро в долари. Є вибір для конвертації.'
 
     },
     en: {
@@ -45,10 +51,16 @@ const translations = {
          'page-works-title': 'My works',
          'page-web-works-title': 'Web projects',
          'page-contacts': 'My contacts',
+         'contacts-title-button-facebook': 'To visit website ',
+         'contacts-title-button-telegramm': 'Message',
+         'contacts-title-button-mail': 'Message us on Gmail',
+         'cards-contacts-facebook': 'My account Facebook',
+         'cards-contacts-telegram': 'My account Telegram',
+         'cards-contacts-gmail': 'This is my Gmail inbox',
          'web-projects': 'View site',
          'works-download': 'Download',
          'cards-python': 'I wrote a Python program to automate the shutdown of a computer if the start button does not work for some reason.',
-         'cards-python-temp': 'I wrote a program to check the temperature of components such as the processor, graphics card, HDD, and RAM. It also includes different modes.',
+         'cards-python-temp': 'I wrote a program to check the temperature of components. Such as CPU, GPU, HDD and SSD.',
          'cards-cpp': 'I wrote a C++ program to convert currencies from UAH to USD. From dollars to UAH. It also converts euros to dollars.'
     }
 };
