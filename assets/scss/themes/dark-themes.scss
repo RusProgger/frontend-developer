@@ -210,7 +210,32 @@
             text-align: center;
             padding-top: 15px;
             padding-bottom: 5px;
+
+            &-desc {
+                max-width: 720px;
+                text-align: center;
+                font-size: clamp(0.875rem, 0.8036rem + 0.3571vw, 1.125rem);
+                font-weight: bold;
+                margin-top: 20px;
+                margin-bottom: 25px;
+                line-height: 1.6;
+            }
            
+            &-progress {
+                width: 100%;
+
+                &-container > label {
+                    display: block;
+                    color: #ffffff;
+                    padding: 10px 5px;
+                    font-weight: bold;
+                    text-align: left;
+                }
+
+                &-container > progress {
+                    width: 100%;
+                }
+            }
         }
 
         &-name {
