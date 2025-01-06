@@ -1,5 +1,5 @@
 const textContainer = document.getElementById('text-random');
-const words = ["Programmer", "3D-modeler", "FrontEnd"];
+const words = ["Programmer", "designer", "FrontEnd"];
 let currentWordIndex = 0;
 let currentLetterIndex = 0;
 
