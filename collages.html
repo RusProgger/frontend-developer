@@ -213,5 +213,10 @@
 <script src="assets/js/lang.js"></script>
 <script src="assets/js/menu.js"></script>
 <script src="assets/js/modal.js"></script>
+<script>
+    if (window.location.pathname.endsWith('.html')) {
+      window.history.replaceState(null, null, window.location.pathname.replace('.html', ''));
+    }
+  </script>
 </body>
 </html>
