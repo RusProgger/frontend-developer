@@ -22,7 +22,7 @@ const translations = {
          'web-projects': 'Подивитись сайт',
          'page-web-works-title': 'Веб-проєкти',
          'data-translate-about': "Про мене",
-         'data-translate-about-desc': 'Вітаю. Мене звати Руслан я фронтенд-розробник, дизайнер та програміст. Навички: C/C++, ООП, стандартна бібліотека шаблонів (STL), багатопотокове програмування, узагальнене програмування, Python, Java, Go(Goland), базові знання PHP/Mysql, JavaScript. Знайомий з фреймворками Bootstrap 4/5, Tailwind CSS, MJML, SASS/SCSS, шаблонізатор Pug, адаптивна верстка, методологія БЕМ, Git. Працюю з операційними системами windows/Linux.',
+         'data-translate-about-desc': 'Вітаю. Мене звати Руслан я фронтенд-розробник, дизайнер та програміст. Навички: C/C++, ООП, стандартна бібліотека шаблонів (STL), багатопотокове програмування, узагальнене програмування, Python, Java, Go(Goland), базові знання PHP/Mysql, JavaScript. Знайомий з фреймворками Bootstrap 4/5, Tailwind CSS, MJML, SASS/SCSS, шаблонізатор Pug, адаптивна верстка, методологія БЕМ, Git. Працюю з операційними системами Windows/Linux.',
          'page-contacts': 'Мої контакти',
          'contacts-title-button-facebook': 'Перейти до facebook',
          'contacts-title-button-telegramm': 'Написати в телеграм',
